@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="square">\u25A0</string>
+    <string name="circle">\u25CF</string>
+    <string name="diamond">\u25C6</string>
+    <string name="star">\u2605</string>
+    <string name="triangle">\u25B2</string>
+    <string name="rectangle">\u25AC</string>
+
+</resources>

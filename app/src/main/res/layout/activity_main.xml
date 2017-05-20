@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.AntifragileDev.alfabetoenespaol.app.MainActivity"
+    android:background="#ff64dbff">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:text="@string/alfabeto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/alfabetoButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/titleTextView"
+        android:text="Alfabeto"
+        android:textColor="#ff64dbff"
+        android:background="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/formasButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/alfabetoButton"
+        android:text="Formas"
+        android:textColor="#ff64dbff"
+        android:background="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/elNumerosButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/formasButton"
+        android:text="el Número"
+        android:textColor="#ff64dbff"
+        android:background="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/color"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/elNumerosButton"
+        android:text="Color"
+        android:textColor="#ff64dbff"
+        android:background="@android:color/white"
+        />
+
+</RelativeLayout>
